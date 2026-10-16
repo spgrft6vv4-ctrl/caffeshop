@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <!-- Название сайта в поисковой выдаче -->
+    <title>
+        CAFFESHOP — кофейня в Иванове | Кофе и десерты
+    </title>
+
+    <!-- Описание сайта для поисковых систем -->
+    <meta
+        name="description"
+        content="CAFFESHOP — сеть кофеен в Иванове. Кофе, авторские напитки, десерты и программа лояльности. Посмотрите меню и найдите ближайшую кофейню."
+    >
+
+    <!-- Разрешаем поисковым роботам индексировать сайт -->
+    <meta
+        name="robots"
+        content="noindex, follow"
+    >
+
+    <link
+        rel="icon"
+        type="image/webp"
+        href="logo.webp"
+    >
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+<header>
+
+    <div class="header-brand">
+
+        <img
+            class="header-logo"
+            src="logo.webp"
+            alt="CAFFESHOP"
+        >
+
+        <span class="brand-name">CAFFESHOP</span>
+
+    </div>
+
+
+    <nav class="nav">
+
+        <a href="#menu">
+            Меню
+        </a>
+
+        <a href="#about">
+            О нас
+        </a>
+
+        <a href="#club">
+            Бонусы
+        </a>
+
+        <a href="#contacts">
+            Контакты
+        </a>
+
+    </nav>
+
+
+    <a class="coffe-time" href="tel:+74932451211">
+    Забронировать
+    </a>
+
+</header>
+
+
+<main>
+
+
+    <!-- ГЛАВНАЯ -->
+
+    <section class="shapka" id="home">
+
+        <div class="shapka-content">
+
+            <h1 class="hero-title">
+                Больше чем просто
+            <span class="text-coffe">Кофе</span>
+            </h1>
+
+            <p>
+                Каждый день с 9:00 до 21:00
+            </p>
+
+
+            <div class="button-shapka">
+
+                <button class="hero-btn-left">
+                  Посмотреть меню
+                </button>
+
+                <button class="hero-btn-right">
+                  Найти кофейню
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- О НАШЕЙ КОФЕЙНЕ -->
+
+    <section
+        class="o-coffe"
+        id="about"
+    >
+
+        <div class="o-coffe-content">
+
+
+            <div class="ocoffe-text">
+
+                <h2 class="tag-ocoffe">
+                    О нашей кофейне
+                </h2>
+
+
+                <p class="text-ocoffe">
+
+                    CAFFESHOP — это место, где встречаются
+
+                    <span class="text-color">
+                        вкус
+                    </span>,
+
+                    люди и
+
+                    <span class="text-color">
+                        вдохновение
+                    </span>.
+
+                    Мы верим, что
+
+                    <span class="text-color">
+                        кофе
+                    </span>
+
+                    способен делать обычные дни особенными.
+
+                </p>
+
+            </div>
+
+
+            <div class="about-gallery">
+
+                <div class="about-gallery-card">
+
+                    <img
+                        src="images/nas/on3.webp"
+                        alt="Интерьер кофейни CAFFESHOP"
+                        loading="lazy"
+                    >
+
+                </div>
+
+
+                <div class="about-gallery-card">
+
+                    <img
+                        src="images/nas/on4.webp"
+                        alt="Атмосфера кофейни CAFFESHOP"
+                        loading="lazy"
+                    >
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- МЕНЮ -->
+
+    <section
+        class="katalog"
+        id="menu"
+    >
+
+        <div class="menu-header">
+
+            <p class="menu-subtitle">
+                Выберите своё
+            </p>
+
+            <h2>
+                Наше меню
+            </h2>
+
+            <p>
+                Классика, авторские напитки и десерты CAFFESHOP
+            </p>
+
+        </div>
+
+
+        <nav class="nav-katalog" aria-label="Категории меню">
+
+    <button class="menu-category active"
+            type="button"
+            data-category="popular">
+        Популярное
+    </button>
+
+    <button class="menu-category"
+            type="button"
+            data-category="coffee">
+        Кофе
+    </button>
+
+    <button class="menu-category"
+            type="button"
+            data-category="signature">
+        Авторские
+    </button>
+
+    <button class="menu-category"
+            type="button"
+            data-category="noncoffee">
+        Не кофе
+    </button>
+
+    <button class="menu-category"
+            type="button"
+            data-category="cold">
+        Холодные
+    </button>
+
+    <button class="menu-category"
+            type="button"
+            data-category="food">
+        Еда и десерты
+    </button>
+
+    <button class="menu-category"
+        type="button"
+        data-category="combo">
+    Комбо
+</button>
+
+<button class="menu-category"
+        type="button"
+        data-category="extra">
+    Добавки
+</button>
+
+</nav>
+
+
+
+        <div class="menu-grid"></div>
+
+
+
+        <div class="menu-pagination">
+
+            <button
+                type="button"
+                aria-label="Предыдущая страница"
+            >
+                ←
+            </button>
+
+
+            <div class="menu-pagination-dots">
+
+                <button
+                    class="active"
+                    type="button"
+                    aria-label="Страница 1"
+                ></button>
+
+                <button
+                    type="button"
+                    aria-label="Страница 2"
+                ></button>
+
+            </div>
+
+
+            <button
+                type="button"
+                aria-label="Следующая страница"
+            >
+                →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+<!-- CAFFESHOP CLUB -->
+
+<section class="club" id="club">
+
+    <img
+        class="club-background"
+        src="club/club.webp"
+        alt=""
+    >
+
+    <div class="club-content">
+
+        <!-- ВЕРХНИЙ ТЕКСТ -->
+
+        <div class="club-intro">
+
+            <p class="club-subtitle">
+                КЛУБ ПОСТОЯННЫХ КЛИЕНТОВ
+            </p>
+
+            <h2>
+                БОЛЬШЕ КОФЕ —
+                <span>БОЛЬШЕ ПРЕИМУЩЕСТВ</span>
+            </h2>
+
+            <p class="club-description">
+                Наш клуб постоянных клиентов создан для тех,
+                кто ценит качественный кофе. Получайте бонусы,
+                скидки и приятные подарки с каждым заказом.
+            </p>
+
+            <a
+            class="club-register"
+            href="https://swip.one/wallet-card/caffeeshop"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+            Стать участником →
+            </a>
+
+        </div>
+
+        <!-- ПРЕИМУЩЕСТВА -->
+
+<div class="club-benefits">
+
+    <div class="club-benefit">
+
+        <div class="club-benefit-icon">
+            <img
+                src="club/icons/bonus.webp"
+                alt=""
+            >
+        </div>
+
+        <strong>
+            Бонусы
+        </strong>
+
+        <span>
+            за каждую покупку
+        </span>
+
+    </div>
+
+
+    <div class="club-benefit">
+
+        <div class="club-benefit-icon">
+            <img
+                src="club/icons/gift.webp"
+                alt=""
+            >
+        </div>
+
+        <strong>
+            Подарки
+        </strong>
+
+        <span>
+            к праздникам
+        </span>
+
+    </div>
+
+
+    <div class="club-benefit">
+
+        <div class="club-benefit-icon">
+            <img
+                src="club/icons/discount.webp"
+                alt=""
+            >
+        </div>
+
+        <strong>
+            Эксклюзивные
+        </strong>
+
+        <span>
+            скидки и акции
+        </span>
+
+    </div>
+
+
+    <div class="club-benefit">
+
+        <div class="club-benefit-icon">
+            <img
+                src="club/icons/priority.webp"
+                alt=""
+            >
+        </div>
+
+        <strong>
+            Приоритетное
+        </strong>
+
+        <span>
+            обслуживание
+        </span>
+
+    </div>
+
+</div>
+
+
+        <!-- УРОВНИ КЛУБА -->
+
+        <div class="club-levels">
+
+
+            <!-- БРОНЗА -->
+
+            <article class="club-level club-level-bronze">
+
+                <img
+                    src="club/bronze.webp"
+                    alt="Бронзовый уровень CAFFESHOP"
+                >
+
+                <div class="club-level-content">
+
+                    <h3>
+                        БРОНЗА
+                    </h3>
+
+                    <p>
+                        от 0 ₽
+                    </p>
+
+                    <small>
+                        за год
+                    </small>
+
+                    <strong>
+                        3%
+                    </strong>
+
+                    <span>
+                        кешбэк на все напитки и десерты
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- СЕРЕБРО -->
+
+            <article class="club-level club-level-silver">
+
+                <img
+                    src="club/silver.webp"
+                    alt="Серебряный уровень CAFFESHOP"
+                >
+
+                <div class="club-level-content">
+
+                    <h3>
+                        СЕРЕБРО
+                    </h3>
+
+                    <p>
+                        от 5 000 ₽
+                    </p>
+
+                    <small>
+                        за год
+                    </small>
+
+                    <strong>
+                        5%
+                    </strong>
+
+                    <span>
+                        кешбэк на все напитки и десерты
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- ЗОЛОТО -->
+
+            <article class="club-level club-level-gold">
+
+                <img
+                    src="club/gold.webp"
+                    alt="Золотой уровень CAFFESHOP"
+                >
+
+                <div class="club-level-content">
+
+                    <h3>
+                        ЗОЛОТО
+                    </h3>
+
+                    <p>
+                        от 15 000 ₽
+                    </p>
+
+                    <small>
+                        за год
+                    </small>
+
+                    <strong>
+                        10%
+                    </strong>
+
+                    <span>
+                        кешбэк на все напитки и десерты
+                        + подарок ко дню рождения
+                    </span>
+
+                </div>
+
+            </article>
+
+
+            <!-- ПЛАТИНА -->
+
+            <article class="club-level club-level-platinum">
+
+                <img
+                    src="club/platinum.webp"
+                    alt="Платиновый уровень CAFFESHOP"
+                >
+
+                <div class="club-level-content">
+
+                    <h3>
+                        ПЛАТИНА
+                    </h3>
+
+                    <p>
+                        от 30 000 ₽
+                    </p>
+
+                    <small>
+                        за год
+                    </small>
+
+                    <strong>
+                        15%
+                    </strong>
+
+                    <span>
+                        кешбэк на все напитки и десерты
+                        + персональные предложения
+                    </span>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- АТМОСФЕРА -->
+
+    <section
+        class="atmosphere"
+        id="atmosphere"
+    >
+
+        <div class="atmosphere-header">
+
+            <p>
+                Пространство CAFFESHOP
+            </p>
+
+            <h2>
+                Атмосфера
+            </h2>
+
+            <p>
+                Место для встреч, работы и любимого кофе.
+            </p>
+
+        </div>
+
+
+        <div class="atmosphere-gallery">
+
+
+            <div class="atmosphere-photo atmosphere-photo-large">
+
+                <img
+                    loading="lazy"
+                    src="images/nas/0.webp"
+                    alt="Интерьер CAFFESHOP"
+                >
+
+            </div>
+
+
+            <div class="atmosphere-photo">
+
+                <img
+                    loading="lazy"
+                    src="images/nas/2.webp"
+                    alt="Кофе в CAFFESHOP"
+                >
+
+            </div>
+
+
+            <div class="atmosphere-photo">
+
+                <img
+                    loading="lazy"
+                    src="images/nas/1.webp"
+                    alt="Атмосфера CAFFESHOP"
+                >
+
+            </div>
+
+
+            <div class="atmosphere-photo">
+
+                <img
+                    loading="lazy"
+                    src="images/nas/4.webp"
+                    alt="Гости CAFFESHOP"
+                >
+
+            </div>
+
+            <div class="atmosphere-photo">
+
+                <img
+                    loading="lazy"
+                    src="images/nas/5.webp"
+                    alt="Гости CAFFESHOP"
+                >
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- НАШИ КОФЕЙНИ -->
+
+    <section
+        class="locations"
+        id="locations"
+    >
+
+        <div class="locations-header">
+
+            <p>
+                Ждём вас
+            </p>
+
+            <h2>
+                Наши кофейни
+            </h2>
+
+        </div>
+
+
+        <div class="locations-layout">
+
+
+            <!-- СПИСОК КОФЕЕН -->
+
+            <div class="locations-list">
+
+
+                <!-- 01 -->
+
+                <button
+                    class="location-select active"
+                    type="button"
+                    data-name="Площадь Пушкина"
+                    data-address="г. Иваново, пл. Пушкина, 9"
+                    data-map="https://yandex.ru/map-widget/v1/?um=constructor%3Ae77e2db8ab68deb45ca8edc9334f3879c9631b687a6396a7f1dad24298294753&amp;source=constructor"
+                >
+
+                    <span>
+                        01
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Площадь Пушкина
+                        </strong>
+
+                        <small>
+                            г. Иваново, пл. Пушкина, 9
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <!-- 02 -->
+
+                <button
+                    class="location-select"
+                    type="button"
+                    data-name="ТЦ Тополь"
+                    data-address="г. Иваново, ул. Лежневская, 55"
+                    data-map="https://yandex.ru/map-widget/v1/?um=constructor%3A945ffa27734b874b9bb37d5b9e75f86899945a27ec6ef4953815288c924464dc&amp;source=constructor"
+                >
+
+                    <span>
+                        02
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            ТЦ Тополь
+                        </strong>
+
+                        <small>
+                            г. Иваново, ул. Лежневская, 55
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+                <!-- 03 -->
+
+                <button
+                    class="location-select"
+                    type="button"
+                    data-name="Красной Армии"
+                    data-address="г. Иваново, ул. Красной Армии, 7А"
+                    data-map="https://yandex.ru/map-widget/v1/?um=constructor%3Ab8f266acf9f388a478b259eb4e5bf94b48c8e92e838ae69efa68198050e714db&amp;source=constructor"
+                >
+
+                    <span>
+                        03
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Красной Армии
+                        </strong>
+
+                        <small>
+                            г. Иваново, ул. Красной Армии, 7А
+                        </small>
+
+                    </div>
+
+                </button>
+
+
+            </div>
+
+
+            <!-- КАРТА -->
+
+            <div class="locations-map-panel">
+
+
+                <div class="map-placeholder">
+
+                    <iframe
+                        id="location-map"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae77e2db8ab68deb45ca8edc9334f3879c9631b687a6396a7f1dad24298294753&amp;source=constructor"
+                        width="100%"
+                        height="450"
+                        style="border: 0;"
+                        loading="lazy"
+                        title="Карта кофеен CAFFESHOP"
+                    ></iframe>
+
+                </div>
+
+
+                <!-- ИНФОРМАЦИЯ ПОД КАРТОЙ -->
+
+                <div class="locations-map-info">
+
+                    <div>
+
+                        <span>
+                            Выбранная кофейня
+                        </span>
+
+                        <h3 id="location-name">
+                            Площадь Пушкина
+                        </h3>
+
+                        <p id="location-address">
+                            г. Иваново, пл. Пушкина, 9
+                        </p>
+
+                    </div>
+
+
+                    <strong>
+                        Ежедневно с 9:00 до 21:00
+                    </strong>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- КОНТАКТЫ -->
+
+    <section
+        class="contacts"
+        id="contacts"
+    >
+
+        <div class="contacts-info">
+
+
+            <p class="contacts-subtitle">
+                Контакты
+            </p>
+
+
+            <h2>
+                Найдите ближайший CAFFESHOP
+            </h2>
+
+
+            <div class="contacts-list">
+
+
+                <div class="contact-item">
+
+                    <span>
+                        Телефон
+                    </span>
+
+                    <a href="tel:+74932451211">
+                        +7 493 245-12-11
+                    </a>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        Площадь Пушкина
+                    </span>
+
+                    <p>
+                        г. Иваново, пл. Пушкина, 9
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        ТЦ Тополь
+                    </span>
+
+                    <p>
+                        г. Иваново, ул. Лежневская, 55
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        Красной Армии
+                    </span>
+
+                    <p>
+                        г. Иваново, ул. Красной Армии, 7А
+                    </p>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <span>
+                        Время работы
+                    </span>
+
+                    <p>
+                        Ежедневно с 9:00 до 21:00
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div
+        id="order"
+        class="order-anchor"
+    ></div>
+
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer class="site-end">
+
+
+    <div class="footer-brand">
+
+        <img
+            src="logo.webp"
+            alt="CAFFESHOP"
+        >
+
+        <strong>
+            CAFFESHOP
+        </strong>
+
+    </div>
+
+
+    <div class="footer-info">
+
+        <p>
+            г. Иваново
+        </p>
+
+        <p>
+            +7 493 245-12-11
+        </p>
+
+    </div>
+
+    <div class="footer-socials">
+
+    <a href="https://vk.ru/caffeshopmh" class="footer-social-link"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="ВКонтакте">
+
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.785 16.241s.288-.031.436-.184c.136-.14.131-.404.131-.404s-.019-1.234.554-1.415c.566-.18 1.293 1.192 2.064 1.72.583.4 1.026.312 1.026.312l2.062-.029s1.078-.067.567-.914c-.042-.069-.297-.626-1.53-1.77-1.291-1.198-1.118-1.005.437-3.078.947-1.263 1.326-2.034 1.208-2.365-.112-.316-.804-.232-.804-.232l-2.322.015s-.172-.024-.3.053c-.124.075-.203.25-.203.25s-.368.978-.859 1.81c-1.036 1.758-1.45 1.85-1.62 1.741-.396-.256-.297-1.028-.297-1.577 0-1.716.26-2.431-.507-2.616-.254-.061-.441-.102-1.091-.109-.834-.009-1.539.003-1.938.199-.266.131-.471.422-.346.438.155.021.506.095.692.348.24.327.231 1.061.231 1.061s.138 2.023-.322 2.274c-.316.172-.749-.179-1.679-1.774-.476-.816-.835-1.719-.835-1.719s-.069-.169-.193-.259c-.151-.11-.362-.145-.362-.145l-2.207.015s-.331.009-.453.153c-.109.129-.009.394-.009.394s1.729 4.045 3.687 6.083c1.795 1.867 3.834 1.744 3.834 1.744h.924z"/>
+        </svg>
+
+    </a>
+
+    <a href="https://t.me/caffeshop" class="footer-social-link"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Telegram">
+
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M21.43 3.56a1.4 1.4 0 0 0-1.45-.2L2.65 10.05c-1.2.47-1.18 1.14-.22 1.44l4.44 1.39 10.27-6.48c.49-.3.93-.14.56.19l-8.32 7.5-.32 4.48c.47 0 .68-.21.94-.46l2.27-2.21 4.72 3.49c.87.48 1.5.23 1.72-.81l2.94-13.84c.32-1.28-.49-1.86-1.22-1.18z"/>
+        </svg>
+
+    </a>
+
+</div>
+
+    <div class="footer-copyright">
+
+        <p>
+            © CAFFESHOP 2026
+        </p>
+
+    </div>
+
+
+</footer>
+
+
+
+<!-- МОБИЛЬНАЯ ПАНЕЛЬ -->
+
+<nav
+    class="mobile-bottom-nav"
+    aria-label="Мобильное меню"
+>
+
+
+    <a
+        class="mobile-bottom-nav__item active"
+        href="#home"
+    >
+
+        <img
+            class="mobile-nav-icon"
+            src="icons/icons-mobile/home.webp"
+            alt=""
+        >
+
+        <span>
+            Главная
+        </span>
+
+    </a>
+
+
+    <a
+        class="mobile-bottom-nav__item"
+        href="#menu"
+    >
+
+        <img
+            class="mobile-nav-icon"
+            src="icons/icons-mobile/menu.webp"
+            alt=""
+        >
+
+        <span>
+            Меню
+        </span>
+
+    </a>
+
+
+<a
+    class="mobile-bottom-nav__item mobile-bottom-nav__item--main"
+    href="tel:+74932451211"
+    aria-label="Позвонить в кофейню"
+>
+    <span class="mobile-call-icon" aria-hidden="true">
+    <img src="icons/icons-mobile/zakaz.webp" alt="">
+    </span>
+
+    <span>Позвонить</span>
+</a>
+
+
+    <a
+        class="mobile-bottom-nav__item"
+        href="#about"
+    >
+
+        <img
+            class="mobile-nav-icon"
+            src="icons/icons-mobile/bagaj.webp"
+            alt=""
+        >
+
+        <span>
+            О нас
+        </span>
+
+    </a>
+
+
+    <a
+        class="mobile-bottom-nav__item"
+        href="#locations"
+    >
+
+        <img
+            class="mobile-nav-icon"
+            src="icons/icons-mobile/adres.webp"
+            alt=""
+        >
+
+        <span>
+            Адреса
+        </span>
+
+    </a>
+
+
+</nav>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
